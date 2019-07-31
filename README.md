@@ -40,27 +40,29 @@ usage: main.py [-h] [--dataset DATASET] [--batchSize BATCHSIZE]
                [--step STEP] [--patience PATIENCE] [--nonhybrid]
                [--validation] [--valid_portion VALID_PORTION]
 
-optional arguments:
-  -h, --help            show this help message and exit
-  --dataset DATASET     dataset name:
-                        diginetica/yoochoose1_4/yoochoose1_64/sample
-  --batchSize BATCHSIZE
-                        input batch size
-  --hiddenSize HIDDENSIZE
-                        hidden state size
-  --epoch EPOCH         the number of epochs to train for
-  --lr LR               learning rate
-  --lr_dc LR_DC         learning rate decay rate
-  --lr_dc_step LR_DC_STEP
-                        the number of epochs after which the learning rate
-                        decay
-  --l2 L2               l2 penalty
-  --step STEP           gnn propogation steps
-  --patience PATIENCE   the number of epoch to wait before early stop
-  --nonhybrid           only use the global preference to predict
-  --validation          validation
-  --valid_portion VALID_PORTION
-                        split the portion of training set as validation set
+parameters arguments:
+    epoch_num           the max epoch number
+    train_batch_size    training batch size
+    valid_batch_size    validation batch size
+    hidden_size = 16    hidden size of the NGNN
+
+    lstm_forget_bias = 0.0
+    
+    max_grad_norm = 1
+    init_scale = 0.05
+    learning_rate = 0.01  # 0.001  # 0.2
+    decay = 0.5
+    decay_when = 0.002  # AUC
+    decay_epoch = 200
+    sgd_opt = 'RMSProp'
+    beta = 0.0001
+    GNN_step = 3
+    dropout_prob = 0
+    adagrad_eps = 1e-5
+    gpu = 0
+                        
+                        
+                        
 ```
 
 ## Requirements
