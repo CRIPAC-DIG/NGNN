@@ -29,13 +29,9 @@ optional arguments:
   --dataset DATASET  dataset name: diginetica/yoochoose/sample
 ```
 
-Then you can run the file `pytorch_code/main.py` or `tensorflow_code/main.py` to train the model.
+Then you can run the file `NGNN/main_score.py` to train the model.
 
-For example: `cd pytorch_code; python main.py --dataset=sample`
-
-You can add the suffix `--nonhybrid` to use the global preference of a session graph to recommend instead of the hybrid preference.
-
-You can also change other parameters according to the usage:
+You can change parameters according to the usage in `NGNN/Config.py`:
 
 ```bash
 usage: main.py [-h] [--dataset DATASET] [--batchSize BATCHSIZE]
@@ -77,20 +73,13 @@ optional arguments:
 Please cite our paper if you use the code:
 
 ```
-@inproceedings{Wu:2019ke,
-title = {{Session-based Recommendation with Graph Neural Networks}},
-author = {Wu, Shu and Tang, Yuyuan and Zhu, Yanqiao and Wang, Liang and Xie, Xing and Tan, Tieniu},
-year = 2019,
-booktitle = {Proceedings of the Twenty-Third AAAI Conference on Artificial Intelligence},
-location = {Honolulu, HI, USA},
-month = jul,
-volume = 33,
-number = 1,
-series = {AAAI '19},
-pages = {346--353},
-url = {https://aaai.org/ojs/index.php/AAAI/article/view/3804},
-doi = {10.1609/aaai.v33i01.3301346},
-editor = {Pascal Van Hentenryck and Zhi-Hua Zhou},
+@inproceedings{cui2019dressing,
+  title={Dressing as a Whole: Outfit Compatibility Learning Based on Node-wise Graph Neural Networks},
+  author={Cui, Zeyu and Li, Zekun and Wu, Shu and Zhang, Xiao-Yu and Wang, Liang},
+  booktitle={The World Wide Web Conference},
+  pages={307--317},
+  year={2019},
+  organization={ACM}
 }
 ```
 
