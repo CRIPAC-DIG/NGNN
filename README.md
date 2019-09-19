@@ -37,7 +37,7 @@ parameters arguments in `NGNN/Config.py`:
     decay_when = 0.002  # AUC
     decay_epoch = 200
     sgd_opt             train strategy can choose: 'RMSProp', 'Adam', 'Momentum', 'RMSProp', 'Adadelta'
-    beta                the proportion of visual and textual  
+    beta                the weight of regulartion
     GNN_step            the number of step of GNN
     dropout_prob        the dropout probability of our model
     adagrad_eps         eps
