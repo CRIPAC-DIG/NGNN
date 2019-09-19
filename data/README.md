@@ -2,10 +2,10 @@
 
 ## brief introduction 
 
-- polyvore/   -- the attribute of all the outfit and items
+- polyvore/   			-- the attribute of all the outfit and items
 
-- polyvore_image/		the directory of outfit image, we give a small sample of an outfit (original dataset on 							Google Drive)
-	/[outfitid]/0.jpg   the whole outfit performance
+- polyvore_image/ 		-- the directory of outfit image, we give a small sample of an outfit (original dataset on 							Google Drive)
+	/[outfitid]/0.jpg 	-- the whole outfit performance
 				1.jpg   the first items
 				2.jpg   the second items
 
