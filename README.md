@@ -5,7 +5,7 @@ The code and dataset for our paper in the WebConf2019: Dressing as a Whole: Outf
 
 This is the code for the WWW-2019 Paper: [Dressing as a Whole: Outfit Compatibility Learning Based on Node-wise Graph Neural Networks](https://arxiv.org/abs/1902.08009). We have implemented our methods in **Tensorflow**.
 
-The original Polyvore dataset we used in our paper is first proposed [here](https://github.com/xthan/polyvore). After downloaded the datasets, you can put them in the folder `NGNN/data/`:
+The original Polyvore dataset we used in our paper is first proposed [here](https://github.com/xthan/polyvore-dataset). After downloaded the datasets, you can put them in the folder `NGNN/data/`:
 
 you can download the preprocessed data here, <http://xxx.html>  and also put them in the folder `NGNN/data/`.
 
@@ -13,7 +13,7 @@ There is a small dataset `sample` included in the folder `NGNN/data/`, which can
 
 
 ## Usage
-if you download the original data of [Polyvore](https://github.com/xthan/polyvore), 
+if you download the original data of [Polyvore](https://github.com/xthan/polyvore-dataset), 
 You need to run the file  `data/preprocess.py` first to preprocess the data. (The `preprocess.py` has not been arranged yet, you can download our preprocessed data at present.<http://xxx.html> )
 
 
