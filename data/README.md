@@ -4,12 +4,12 @@
 
 - polyvore/   			-- the attribute of all the outfit and items
 
-- polyvore_image/ 		-- the directory of outfit image, we give a small sample of an outfit (original dataset on 							Google Drive)
+- polyvore-images/ 		-- the directory of outfit image, we give a small sample of an outfit (original dataset on 							Google Drive)
 	/[outfitid]/0.jpg 	-- the whole outfit performance
 				1.jpg   the first items
 				2.jpg   the second items
 
-- polyvore_image_vec/	
+- polyvore-images_vec/	
 	/[outfitid]\_[itemid].json
 
 - polyvore_text/		the text information of all items
