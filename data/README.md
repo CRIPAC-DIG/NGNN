@@ -38,7 +38,11 @@ or our [filtered verison](http:/xxx.com)
 
 Fourth:		    generate `polyvore_text_mhot` file by `python user_inception_for_vec.py`
 
-Fiveth:		    
+Fiveth:		    `python summarize.py` filter the category which appears less than 100 times.
+
+Sixth:		    `python preprocess.py` filter the items according to our paper. (this file is missing unfortunately, we upload the filtered dataset for you in `.\data`, if you don't want to write it by yourself.)
+
+Seventh:	    
 
 
 
