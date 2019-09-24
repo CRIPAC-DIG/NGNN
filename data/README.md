@@ -31,7 +31,7 @@
 First:              download and unzip the polyvore-images from Google Drive [here](https://drive.google.com/drive/folders/0B4Eo9mft9jwoVDNEWlhEbUNUSE0)  
 
 Second:             use inception-v3 to extract image feature into `polyvore_image_vec/`
-                    `python use_inception_for_vec.py`
+                    `python use_inception_for_vec.py`, click [here](http:\xxx.com) for the extracted feature with the same format.
 
 Thrid:              download and unzip the detail informations of polyvore outfit. You can download the [original version](https://drive.google.com/drive/folders/0B4Eo9mft9jwoVDNEWlhEbUNUSE0)
 or our [filtered verison](http:/xxx.com)
@@ -42,7 +42,8 @@ Fiveth:		    `python summarize.py` filter the category which appears less than 1
 
 Sixth:		    `python preprocess.py` filter the items according to our paper. (this file is missing unfortunately, we upload the filtered dataset for you in `.\data`, if you don't want to write it by yourself.)
 
-Seventh:	    
+
+
 
 
 
