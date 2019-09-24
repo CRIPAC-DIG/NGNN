@@ -26,6 +26,13 @@
 
 
 ## how to prepare for our model training
+First:              download and unzip the polyvore-images from Google Drive [here](https://drive.google.com/drive/folders/0B4Eo9mft9jwoVDNEWlhEbUNUSE0)  
+
+Second:             use inception-v3 to extract image feature into `polyvore_image_vec/`
+                    `python use_inception_for_vec.py`
+
+Thrid:              download the detail informations of polyvore outfit. You can download the [original version](https://drive.google.com/drive/folders/0B4Eo9mft9jwoVDNEWlhEbUNUSE0)
+or our [filtered verison](http:/xxx.com)
 
 
 
