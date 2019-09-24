@@ -20,6 +20,8 @@
 
 - arranged_data/		the arranged data which is preprocessed for our code.
 
+- category_id.txt	the id to category name index for all items
+
 - use_inception.py      the file to extra the raw image of each item in `polyvore_image/` to vectors in 									`polyvore_image_vec` by inception-v3
 
 - [preprocess.py]		stil in arranged.
@@ -31,8 +33,12 @@ First:              download and unzip the polyvore-images from Google Drive [he
 Second:             use inception-v3 to extract image feature into `polyvore_image_vec/`
                     `python use_inception_for_vec.py`
 
-Thrid:              download the detail informations of polyvore outfit. You can download the [original version](https://drive.google.com/drive/folders/0B4Eo9mft9jwoVDNEWlhEbUNUSE0)
+Thrid:              download and unzip the detail informations of polyvore outfit. You can download the [original version](https://drive.google.com/drive/folders/0B4Eo9mft9jwoVDNEWlhEbUNUSE0)
 or our [filtered verison](http:/xxx.com)
+
+Fourth:		    generate `polyvore_text_mhot` file by `python user_inception_for_vec.py`
+
+
 
 
 
