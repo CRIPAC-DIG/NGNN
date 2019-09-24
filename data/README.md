@@ -9,7 +9,7 @@
 				1.jpg   the first items
 				2.jpg   the second items
 
-- polyvore-images_vec/	
+- polyvore_image_vectors/	
 	/[outfitid]\_[itemid].json
 
 - polyvore_text/		the text information of all items
