@@ -31,10 +31,10 @@
 First:              download and unzip the polyvore-images from Google Drive [here](https://drive.google.com/drive/folders/0B4Eo9mft9jwoVDNEWlhEbUNUSE0)  
 
 Second:             use inception-v3 to extract image feature into `polyvore_image_vec/`
-                    `python use_inception_for_vec.py`, click [here](http:\xxx.com) for the extracted feature with the same format.
+                    `python use_inception_for_vec.py`, click [here](https://drive.google.com/open?id=1ibYEw0H9L9O9OLbxCiAlcZkt_IYuwKfd) for the extracted feature with the same format.
 
 Thrid:              download and unzip the detail informations of polyvore outfit. You can download the [original version](https://drive.google.com/drive/folders/0B4Eo9mft9jwoVDNEWlhEbUNUSE0)
-or our [filtered verison](http:/xxx.com)
+or our [filtered verison](https://drive.google.com/open?id=1ibYEw0H9L9O9OLbxCiAlcZkt_IYuwKfd)
 
 Fourth:		    generate `polyvore_text_mhot` file by `python user_inception_for_vec.py`
 
