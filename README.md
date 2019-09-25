@@ -7,14 +7,13 @@ This is the code for the WWW-2019 Paper: [Dressing as a Whole: Outfit Compatibil
 
 The original Polyvore dataset we used in our paper is first proposed [here](https://github.com/xthan/polyvore-dataset). After downloaded the datasets, you can put them in the folder `NGNN/data/`:
 
-you can download the preprocessed data here, <http://xxx.html>  and also put them in the folder `NGNN/data/`.
+you can download the preprocessed data here, <https://drive.google.com/open?id=1ibYEw0H9L9O9OLbxCiAlcZkt_IYuwKfd>  and also put them in the folder `NGNN/data/`.
 
 There is a small dataset `sample` included in the folder `NGNN/data/`, which can be used to test the correctness of the code.
 
 
 ## Usage
-if you download the original data of [Polyvore](https://github.com/xthan/polyvore-dataset), 
-You need to run the file  `data/preprocess.py` first to preprocess the data. (The `preprocess.py` has not been arranged yet, you can download our preprocessed data at present.<http://xxx.html> )
+### the data preprocess is written in the `./data/README.md` 
 
 
 Then you can run the file `NGNN/main_score.py` to train the model.
