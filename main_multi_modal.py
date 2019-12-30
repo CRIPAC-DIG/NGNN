@@ -343,18 +343,25 @@ if __name__ == '__main__':
     best_accurancy = 0.
     i = 0
     batch_size = 16
-    for image_hidden_size in [12]: #### n*8
-        for text_hidden_size in [12, 16, 64]:
-            for n_steps in [3]:
-                for learning_rate in [0.001]:
-                    for opt in ['RMSProp', 'Adam']:
-                        for beta in [0.2, 0.5, 0.7]:
-                            accurancy = cm_ggnn(batch_size, image_hidden_size, text_hidden_size, n_steps, learning_rate, G, num_category, opt, i, beta)
-                            if accurancy > best_accurancy:
-                                best_accurancy = accurancy
-                                best_parameter = [batch_size, image_hidden_size, text_hidden_size, n_steps, learning_rate]
-                                print("best parameter is batch_size, image_hidden_size, text_hidden_size, n_steps, learning_rate, optimizer:%d, %d ,%d , %d, %f, %s" % (batch_size,
-                                                                                                                        image_hidden_size, text_hidden_size, n_steps, learning_rate, opt))
-                                i += 1
+    image_hidden_size = 12
+    text_hidden_size = 12
+    n_steps = 3
+    learning_rate = 0.001
+    opt = RMSProp"
+    beta = 0.2
+    accurancy = cm_ggnn(batch_size, image_hidden_size, text_hidden_size, n_steps, learning_rate, G, num_category, opt, i, beta)
+#     for image_hidden_size in [12]: #### n*8
+#         for text_hidden_size in [12, 16, 64]:
+#             for n_steps in [3]:
+#                 for learning_rate in [0.001]:
+#                     for opt in ['RMSProp', 'Adam']:
+#                         for beta in [0.2, 0.5, 0.7]:
+#                             accurancy = cm_ggnn(batch_size, image_hidden_size, text_hidden_size, n_steps, learning_rate, G, num_category, opt, i, beta)
+#                             if accurancy > best_accurancy:
+#                                 best_accurancy = accurancy
+#                                 best_parameter = [batch_size, image_hidden_size, text_hidden_size, n_steps, learning_rate]
+#                                 print("best parameter is batch_size, image_hidden_size, text_hidden_size, n_steps, learning_rate, optimizer:%d, %d ,%d , %d, %f, %s" % (batch_size,
+#                                                                                                                         image_hidden_size, text_hidden_size, n_steps, learning_rate, opt))
+#                                 i += 1
 
 
