@@ -347,9 +347,11 @@ if __name__ == '__main__':
     text_hidden_size = 12
     n_steps = 3
     learning_rate = 0.001
-    opt = RMSProp"
+    opt = "RMSProp"
     beta = 0.2
     accurancy = cm_ggnn(batch_size, image_hidden_size, text_hidden_size, n_steps, learning_rate, G, num_category, opt, i, beta)
+    print("best parameter is batch_size, image_hidden_size, text_hidden_size, n_steps, learning_rate, optimizer:%d, %d ,%d , %d, %f, %s" % (batch_size,
+    image_hidden_size, text_hidden_size, n_steps, learning_rate, opt))
 #     for image_hidden_size in [12]: #### n*8
 #         for text_hidden_size in [12, 16, 64]:
 #             for n_steps in [3]:
