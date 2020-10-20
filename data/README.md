@@ -36,7 +36,7 @@ Second:             use inception-v3 to extract image feature into `polyvore_ima
 Thrid:              download and unzip the detail informations of polyvore outfit. You can download the [original version](https://drive.google.com/drive/folders/0B4Eo9mft9jwoVDNEWlhEbUNUSE0)
 or our [filtered verison](https://drive.google.com/open?id=1ibYEw0H9L9O9OLbxCiAlcZkt_IYuwKfd)
 
-Fourth:		    generate `polyvore_text_mhot` file by `python user_inception_for_vec.py`
+Fourth:		    generate `polyvore_text_mhot` file by `onehot_embedding.py`
 
 Fiveth:		    `python summarize.py` filter the category which appears less than 100 times.
 
