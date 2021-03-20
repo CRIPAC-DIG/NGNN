@@ -1,5 +1,8 @@
 # NGNN
 The code and dataset for our paper in the WebConf2019: Dressing as a Whole: Outfit Compatibility Learning Based on Node-wise Graph Neural Networks [[arXiv version]](https://arxiv.org/abs/1902.08009)
+<div align=center>
+  <img src="https://github.com/CRIPAC-DIG/SCGAN/blob/ed1110385c39fbbb8cce763b3a6ebc510a871c3a/figures/UCLANs2.pdf" width = 50% height = 50% />
+</div>
 
 ## Paper data and code
 
@@ -7,7 +10,7 @@ This is the code for the WWW-2019 Paper: [Dressing as a Whole: Outfit Compatibil
 
 The original Polyvore dataset we used in our paper is first proposed [here](https://github.com/xthan/polyvore-dataset). After downloaded the datasets, you can put them in the folder `NGNN/data/`:
 
-you can download the preprocessed data here, <https://drive.google.com/open?id=1ibYEw0H9L9O9OLbxCiAlcZkt_IYuwKfd>  and also put them in the folder `NGNN/data/`.
+You can download the preprocessed data here, <https://drive.google.com/open?id=1ibYEw0H9L9O9OLbxCiAlcZkt_IYuwKfd>  and also put them in the folder `NGNN/data/`.
 
 There is a small dataset `sample` included in the folder `NGNN/data/`, which can be used to test the correctness of the code.
 
@@ -53,7 +56,7 @@ parameters arguments in `NGNN/Config.py`:
 
 ## Citation
 
-Please cite our paper if you use the code:
+Please cite our paper if you find the code useful:
 
 ```
 @inproceedings{cui2019dressing,
