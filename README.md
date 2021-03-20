@@ -1,7 +1,7 @@
 # NGNN
 The code and dataset for our paper in the WebConf2019: Dressing as a Whole: Outfit Compatibility Learning Based on Node-wise Graph Neural Networks [[arXiv version]](https://arxiv.org/abs/1902.08009)
 <div align=center>
-  <img src="https://github.com/CRIPAC-DIG/NGNN/blob/d433faf82c3bc65de7ea63714828306a900699ae/figures/cmgnn_framework.png" width = 50% height = 50% />
+  <img src="https://github.com/CRIPAC-DIG/NGNN/blob/d433faf82c3bc65de7ea63714828306a900699ae/figures/cmgnn_framework.png" width = 100% height = 100% />
 </div>
 
 ## Paper data and code
