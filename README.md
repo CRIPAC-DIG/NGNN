@@ -1,12 +1,12 @@
 # NGNN
-The code and dataset for our paper in the WebConf2019: Dressing as a Whole: Outfit Compatibility Learning Based on Node-wise Graph Neural Networks [[arXiv version]](https://arxiv.org/abs/1902.08009)
-<div align=center>
-  <img src="https://github.com/CRIPAC-DIG/NGNN/blob/d433faf82c3bc65de7ea63714828306a900699ae/figures/cmgnn_framework.png" width = 100% height = 100% />
-</div>
 
-## Paper data and code
+<img src="https://github.com/CRIPAC-DIG/NGNN/blob/d433faf82c3bc65de7ea63714828306a900699ae/figures/cmgnn_framework.png" alt="model" style="zoom: 100%;" />
 
-This is the code for the WWW-2019 Paper: [Dressing as a Whole: Outfit Compatibility Learning Based on Node-wise Graph Neural Networks](https://arxiv.org/abs/1902.08009). We have implemented our methods in **Tensorflow**.
+This is the code for the WebConf 2019 Paper: [Dressing as a Whole: Outfit Compatibility Learning Based on Node-wise Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3308558.3313444).
+
+## Usage
+
+### Paper data and code
 
 The original Polyvore dataset we used in our paper is first proposed [here](https://github.com/xthan/polyvore-dataset). After downloaded the datasets, you can put them in the folder `NGNN/data/`:
 
@@ -14,10 +14,9 @@ You can download the preprocessed data here, <https://drive.google.com/open?id=1
 
 There is a small dataset `sample` included in the folder `NGNN/data/`, which can be used to test the correctness of the code.
 
+*** the data preprocess is written in the `./data/README.md` ***
 
-## Usage
-### the data preprocess is written in the `./data/README.md` 
-
+### Quick Start
 
 Then you can run the file `NGNN/main_score.py` to train the model.
 
@@ -43,10 +42,7 @@ parameters arguments in `NGNN/Config.py`:
     GNN_step            the number of step of GNN
     dropout_prob        the dropout probability of our model
     adagrad_eps         eps
-    gpu = 0             the gpu id
-                        
-                        
-                        
+    gpu = 0             the gpu id            
 ```
 
 ## Requirements
@@ -56,7 +52,7 @@ parameters arguments in `NGNN/Config.py`:
 
 ## Citation
 
-Please cite our paper if you find the code useful:
+Please cite our paper if you use the code:
 
 ```
 @inproceedings{cui2019dressing,
@@ -68,4 +64,7 @@ Please cite our paper if you find the code useful:
   organization={ACM}
 }
 ```
+Please cite our paper if you find the code useful:
+
+
 
