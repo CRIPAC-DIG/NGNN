@@ -14,7 +14,7 @@ You can download the preprocessed data here, <https://drive.google.com/open?id=1
 
 There is a small dataset `sample` included in the folder `NGNN/data/`, which can be used to test the correctness of the code.
 
-*** the data preprocess is written in the `./data/README.md` ***
+**the data preprocess is written in the `./data/README.md`**
 
 ### Quick Start
 
@@ -64,7 +64,6 @@ Please cite our paper if you use the code:
   organization={ACM}
 }
 ```
-Please cite our paper if you find the code useful:
 
 
 
